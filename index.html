@@ -11,16 +11,17 @@
 
 <body style="background-color:rgb(204, 204, 216);">
 
-  <div class="wrapper">
-    <div class="container">
+  <div class="container">
+    <!-- <div class="wrapper"> -->
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 jumbotron text-center" style="background-image: url('https://www.wikihow.com/images/thumb/f/ff/Clean-Your-Belly-Button-Step-3-Version-3.jpg/aid122895-v4-728px-Clean-Your-Belly-Button-Step-3-Version-3.jpg.webp');
-        background-size: cover; background-position: center; color: rgb(52, 47, 70); text-shadow: 1px 1px 2px white">
-        <h1>Belly Button Biodiversity Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+          background-size: cover; background-position: center; color: rgb(52, 47, 70); text-shadow: 1px 1px 2px white">
+          <h1>Belly Button Biodiversity Dashboard</h1>
+          <p>Use the interactive charts below to explore the dataset</p>
+        </div>
       </div>
-    </div>
-    <br>
+    <!-- </div> -->
+  <br>
   <div class="row">
     <div class="col-md-12" style="color:rgb(52, 47, 70); font-size: 8px;">
       <h3>These interactive charts visualize the different bacteria collected from the volunteers.
@@ -46,8 +47,9 @@
       <div class="panel panel-primary">
         <div class="panel-heading">
           <h3 class="panel-title">Demographic Info</h3>
+        </div>  
+        <div id="sample-metadata" class="panel-body">
         </div>
-      <div id="sample-metadata" class="panel-body">
       </div>
     </div>
     <div class="col-md-5">
@@ -57,6 +59,7 @@
       <div id="gauge"></div>
     </div>
   </div>
+  <br>
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12">
       <div id="bubble"></div>
