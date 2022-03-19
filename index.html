@@ -23,35 +23,41 @@
     <br>
   <div class="row">
     <div class="col-md-12" style="color:rgb(52, 47, 70); font-size: 8px;">
-      <p> <h4>These interactive charts visualize the different bacteria collected from the volunteers. 
+      <h3>These interactive charts visualize the different bacteria collected from the volunteers.
+      </h3>
+      <h4>
         Navigate to the drop-down menu to select the volunteer ID to show data from the top 10 bacteria cultures.
-      </h4> </p>
-      <br>
-      <div class="row">
-        <div class="col-md-12">
-          <p> <h4>Below you will find a Bar Chart, A Gauge Chart, and Bubble Chart
-          </h4> </p>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Test Subject ID No.:</h5>
+      </h4>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <h4>Below you will find a Bar Chart, A Gauge Chart, and Bubble Chart
+      </h4>
+    </div> 
+  </div>   
+  <div class="row">
+    <div class="col-md-2">
+      <div class="well">
+        <h5>Test Subject ID No.:</h5>
           <!-- <select id="selDataset"></select> -->
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
-        </div>
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
-          </div>
-          <div id="sample-metadata" class="panel-body"></div>
-        </div>
+        <select id="selDataset" onchange="optionChanged(this.value)"></select>
       </div>
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
+      <div class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title">Demographic Info</h3>
+        </div>
+      <div id="sample-metadata" class="panel-body">
       </div>
     </div>
+  </div>
+  <div class="col-md-5">
+    <div id="bar"></div>
+  </div>
+  <div class="col-md-5">
+    <div id="gauge"></div>
+  </div>
+  </div>
     <div class="row">
       <div class="col-xs-12 col-sm-12 col-md-12">
         <div id="bubble"></div>
