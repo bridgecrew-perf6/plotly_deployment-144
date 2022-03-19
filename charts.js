@@ -106,6 +106,7 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: -0.25,
         yanchor: 'center',
+        text: 'Bar Chart displays the top 10 bacterial species (OTUs)<br>with the number of samples found in your belly button',
         showarrow: false
       }]
     };
@@ -134,8 +135,8 @@ function buildCharts(sample) {
       showlegend: false,
       xaxis: {title: "OTU ID", automargin: true},
       yaxis: {automargin: true},
-      //margin: { t: 50, r: 50, l: 50, b: 50 },
       hovermode: "closest"
+      // text: "The size of bubbles display the sample’s concentration and biodiversity of the bacteria."
     };
     console.log(bubbleLayout);
 
@@ -189,6 +190,7 @@ function buildCharts(sample) {
         xanchor: 'center',
         y: 0,
         yanchor: 'center',
+        text: "Gauge Chart: displays your belly button's weekly washing frequency",
         showarrow: false
       }]
     };
