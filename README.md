@@ -15,9 +15,9 @@ charts.js
 index.html
 samples.json
 ###### WebPage [Bellybuton Biodiversity](https://robyndook.github.io/plotly_deployment/)
-[image1](https from github)
-[image2](https from github)
-[image3](https from github)
+[image1](https://github.com/robyndook/plotly_deployment/blob/c0424300328a53404d0787ae87b0fc0185d55087/Images/2022-03-19_15-08-04.jpg)
+[image2](https://github.com/robyndook/plotly_deployment/blob/c0424300328a53404d0787ae87b0fc0185d55087/Images/2022-03-19_15-09-12.jpg)
+[image3](https://github.com/robyndook/plotly_deployment/blob/c0424300328a53404d0787ae87b0fc0185d55087/Images/2022-03-19_15-09-52.jpg)
 
 <!--
 [x] Add an image to the jumbotron.
