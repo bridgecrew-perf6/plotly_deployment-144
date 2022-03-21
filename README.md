@@ -1,5 +1,5 @@
 # plotly_deployment
-Module 12: Plotly &amp; Belly Button Biodiversity (Grade /100)
+Module 12: Plotly &amp; Belly Button Biodiversity (Grade 100/100)
 ###### Project Overview
 Using JavaScript, Plotly, and D3.js, create a:
 - Horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage.
